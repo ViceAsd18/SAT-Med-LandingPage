@@ -1,5 +1,6 @@
 body {
     padding-top: 80px;
+    background: #F1F4F6;
 }
 
 /* NAVBAR */
@@ -58,7 +59,6 @@ body {
 /* HERO Section */
 .hero {
     padding: 100px 20px 60px;
-    background-color: #F7FAFC;
     overflow: hidden;
 }
 
@@ -152,4 +152,86 @@ body {
 
 .btn-secondary:hover {
     background-color: #D7DADC;
+}
+
+
+/*PROBLEMAS seccion */
+.problemas-section {
+    background-color: #F1F4F6;
+    padding: 100px 20px;
+}
+
+.contenedor-problemas {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Encabezado */
+.problemas-header {
+    margin-bottom: 64px;
+}
+
+.problemas-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #003D9B;
+    letter-spacing: -1px;
+    margin-bottom: 16px;
+}
+
+.problemas-linea {
+    width: 80px;
+    height: 6px;
+    background-color: #003D9B;
+    border-radius: 3px;
+}
+
+/* Grid de tarjetas */
+.problemas-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 32px;
+}
+
+/* Tarjeta individual */
+.problema-card {
+    background-color: #FFFFFF;
+    padding: 40px;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+
+/* Iconos */
+.problema-icon {
+    width: 56px;
+    height: 56px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+
+/* Colores de iconos */
+.icono-naranjo {
+    background-color: #FFDBCF;
+}
+
+
+/* Textos */
+.problema-titulo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #181C1E;
+    margin-bottom: 16px;
+}
+
+.problema-descripcion {
+    font-size: 16px;
+    color: #64748B;
+    line-height: 1.7;
 }
