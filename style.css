@@ -235,3 +235,136 @@ body {
     color: #64748B;
     line-height: 1.7;
 }
+
+
+/* HISTORIALES MÉDICOS EN TIEMPO REAL Section*/
+
+.historiales-section {
+    padding: 6rem 0;
+}
+
+.contenedor-historiales {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+.historiales-card {
+    background: #0052cc;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Contenido izquierdo */
+.historiales-contenido {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/* Badge superior */
+.historiales-badge {
+    display: inline-block;
+    color: #FFFFFFCC;
+    font-size: 0.875rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 1rem;
+}
+
+/* Título */
+.historiales-titulo {
+    font-family: 'Manrope', sans-serif;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ffffff;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+}
+
+
+
+/* Descripción */
+.historiales-descripcion {
+    font-size: 1.125rem;
+    color: #C3D1FF;
+    line-height: 1.7;
+    margin-bottom: 2rem;
+}
+
+.historiales-tagline {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+/* Avatares apilados */
+.avatares-grupo {
+    display: flex;
+}
+
+.avatares-grupo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid #0052cc;
+}
+
+/* Texto de especialistas */
+.historiales-especialistas {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #C3D1FF;
+}
+
+/* Imagen derecha */
+.historiales-imagen {
+    position: relative;
+    min-height: 300px;
+}
+
+.historiales-imagen img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+@media (min-width: 768px) {
+    .historiales-titulo {
+        font-size: 2.25rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .historiales-card {
+        flex-direction: row;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .historiales-contenido {
+        width: 50%;
+    }
+}
+
+@media (min-width: 768px) {
+    .historiales-imagen {
+        width: 50%;
+        min-height: auto;
+    }
+}
