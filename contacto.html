@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
 </head>
 <body>
     
@@ -34,7 +35,116 @@
     </nav>
 
     
+    <!-- MAIN CONTACTO -->
+    <main class="contacto-main">
+        <div class="contenedor-contacto">
 
+            <div class="contacto-badge-wrapper">
+                <span class="contacto-badge">Contacto Centralizado</span>
+            </div>
+
+            <div class="contacto-grid">
+
+                <!-- Columna Izquierda: Formulario -->
+                <section class="contacto-formulario-card">
+                    <div class="contacto-header">
+                        <h1 class="contacto-titulo">Contáctanos</h1>
+                        <p class="contacto-descripcion">Inicie una conversación con nuestros especialistas en digitalización clínica.</p>
+                    </div>
+
+                    <form class="contacto-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label class="form-label">Nombre completo</label>
+                                <input type="text" class="form-input" placeholder="Dr. Juan Pérez">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-label">Correo institucional</label>
+                                <input type="email" class="form-input" placeholder="jperez@clinica.cl">
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Clínica o Centro Médico</label>
+                            <input type="text" class="form-input" placeholder="Nombre de la institución">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="form-label">Mensaje</label>
+                            <textarea class="form-textarea" rows="5" placeholder="Cuéntenos sobre las necesidades de su centro..."></textarea>
+                        </div>
+
+                        <button type="submit" class="form-submit">
+                            <span>Enviar mensaje</span>
+                            <span class="material-symbols-outlined">send</span>
+                        </button>
+                    </form>
+                </section>
+
+                <!-- Columna Derecha: Info -->
+                <section class="contacto-info">
+
+                    <!-- Card de información -->
+                    <div class="info-card">
+                        <h2 class="info-titulo">Información de contacto</h2>
+
+                        <div class="info-items">
+                            <div class="info-item">
+                                <div class="info-icono">
+                                    <span class="material-symbols-outlined">location_on</span>
+                                </div>
+                                <div class="info-texto">
+                                    <h3>Ubicación</h3>
+                                    <p>Coquimbo, Chile</p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icono">
+                                    <span class="material-symbols-outlined">mail</span>
+                                </div>
+                                <div class="info-texto">
+                                    <h3>Email</h3>
+                                    <p><a href="mailto:soporte@satmed.cl">soporte@satmed.cl</a></p>
+                                </div>
+                            </div>
+
+                            <div class="info-item">
+                                <div class="info-icono">
+                                    <span class="material-symbols-outlined">phone</span>
+                                </div>
+                                <div class="info-texto">
+                                    <h3>Teléfono</h3>
+                                    <p>+56 9 1234 5678</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="info-videollamada">
+                            <button class="btn-videollamada">
+                                <span class="material-symbols-outlined">video_chat</span>
+                                <span>Agendar Videollamada</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Imagen -->
+                    <div class="contacto-imagen">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600" alt="Recepción clínica" class="contact-image">
+                        <div class="contacto-imagen-overlay"></div>
+                    </div>
+
+                    <!-- Compromiso -->
+                    <div class="contacto-compromiso">
+                        <span class="material-symbols-outlined">verified</span>
+                        <p>Nuestro equipo técnico te contactará en menos de 24 horas.</p>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
+    </main>
 
 
 
